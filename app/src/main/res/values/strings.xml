@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab6_20182048</string>
+    <string name="facebook_app_id">1059554852340915</string>
+    <string name="fb_login_protocol_scheme">fb1059554852340915</string>
+    <string name="facebook_client_token">ee7a3d12619c61356bbc9381fc39e4a5</string>
+    <string name="default_web_client_id">521588543953-8lmp4qekltckr3dkii2mvhguadjmmg7f.apps.googleusercontent.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

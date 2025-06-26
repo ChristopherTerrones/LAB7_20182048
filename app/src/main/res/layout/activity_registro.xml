@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registroLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tituloRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="32dp" />
+
+        <EditText
+            android:id="@+id/inputCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:drawableStart="@drawable/ic_email"
+            android:background="@drawable/fondo_input_redondeado"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/inputClave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_lock"
+            android:background="@drawable/fondo_input_redondeado"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/inputConfirmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirmar contraseña"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_lock"
+            android:background="@drawable/fondo_input_redondeado"
+            android:padding="14dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnCrearCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear cuenta"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/black"
+            android:paddingVertical="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/linkVolverLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Ya tienes una cuenta? Inicia sesión"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+</ScrollView>

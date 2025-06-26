@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_ingresos"
+        android:icon="@drawable/paid_24px"
+        android:title="Ingresos" />
+    <item
+        android:id="@+id/nav_egresos"
+        android:icon="@drawable/payments_24px"
+        android:title="Egresos" />
+    <item
+        android:id="@+id/nav_resumen"
+        android:icon="@drawable/overview_24px"
+        android:title="Resumen" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout_24px"
+        android:title="Cerrar sesión" />
+</menu>
